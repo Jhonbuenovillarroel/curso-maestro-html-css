@@ -1,0 +1,44 @@
+/* Para comentar: CTRL + K + C */
+/* Para descomentar: CTRL + K + U */
+
+/* p {
+  color: white;
+  background-color: red;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 5px;
+  text-align: center;
+} */
+
+.parrafo {
+  color: white;
+  background-color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 5px;
+  text-align: center;
+}
+
+#id-parrafo {
+  color: white;
+  background-color: red;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 5px;
+  text-align: left;
+}
