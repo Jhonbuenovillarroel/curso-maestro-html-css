@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Audio y Video -->
+
+    <!-- <video
+      width="300"
+      loop
+      muted
+      controls
+      poster="./assets/descarga.jpeg"
+      src="./assets/01.mkv"
+    >
+      <p>El video</p>
+    </video> -->
+
+    <video width="500" controls>
+      <source src="./assets/01.mp4" type="video/mp4" />
+      <source src="./assets/01.mkv" type="video/mp4" />
+      <p>El video</p>
+    </video>
+
+    <!-- <audio src="./assets/audio.mp3" controls></audio> -->
+
+    <audio controls>
+      <source src="./assets/audio.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- Tablas en HTML -->
+
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Apellido</th>
+        <th>Apellido</th>
+        <th>Apellido</th>
+        <th>Apellido</th>
+      </tr>
+      <tr>
+        <!-- rowspan maneja la cantidad de casillas a ocupar en cada fila -->
+        <td rowspan="3">Jhon</td>
+        <td>Bueno</td>
+        <td>Item 03</td>
+        <td>Item 03</td>
+        <td>Item 03</td>
+        <td>Item 03</td>
+      </tr>
+      <tr>
+        <td>Luis</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+      </tr>
+      <tr>
+        <!-- colspan maneja la cantidad de casillas a ocupar en cada columna -->
+        <td colspan="2">Luis</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+      </tr>
+      <tr>
+        <td>Luis</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+      </tr>
+      <tr>
+        <td>Luis</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+      </tr>
+      <tr>
+        <td>Luis</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+        <td>Nuñez</td>
+      </tr>
+    </table>
+
+    <!-- Formularios -->
+
+    <form>
+      <label for="check"
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat hic,
+        quos dolorum nemo ullam accusamus quas
+        <input id="check" type="checkbox" />
+
+        <label for="name">
+          Nombre
+          <input
+            name="name"
+            placeholder="ej. John Doe"
+            required
+            id="name"
+            type="text"
+          />
+        </label>
+
+        <label for="email">
+          Correo Electrónico
+          <input id="email" type="email" />
+        </label>
+      </label>
+
+      <!-- 2 formas de agregar botones al formulario -->
+
+      <!-- Opción 01 -->
+
+      <!-- <button type="submit">Enviar</button> -->
+
+      <!-- Opción 02 -->
+
+      <input value="Enviar datos" type="submit" />
+    </form>
+  </body>
+</html>
