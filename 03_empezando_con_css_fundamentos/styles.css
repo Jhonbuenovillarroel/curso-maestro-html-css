@@ -1,0 +1,75 @@
+/* p {
+  background-color: blue;
+  color: white;
+}
+
+.parrafo {
+  background-color: black;
+}
+
+li {
+  color: red;
+}
+
+div div div div p {
+  background-color: blue;
+} */
+/* 
+button + p {
+  font-size: 40px;
+} */
+
+/* h1 {
+  background-color: black;
+  color: white;
+}
+
+h1:hover {
+  background-color: blue;
+} */
+
+/* div div .h2 {
+  background-color: red;
+}
+
+div div .h3 {
+  background-color: blue;
+}
+
+div div div .div-02 p {
+  background-color: yellow;
+} */
+
+/* div {
+  border: 2px solid black;
+}
+
+div p {
+  font-size: 40px;
+  background-color: purple;
+  color: white;
+  width: calc(100% - 20%);
+} */
+
+/* Media Queries */
+/* @media (min-width: 600px) {
+  div p {
+    background-color: black;
+  }
+} */
+
+div div .h3 {
+  background-color: blue;
+}
+div div div .div-02 p {
+  background-color: yellow;
+}
+div {
+  border: 2px solid black;
+}
+div p {
+  font-size: 40px;
+  background-color: purple;
+  color: white;
+  width: calc(100% - 20%);
+}
