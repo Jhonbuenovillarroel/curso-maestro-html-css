@@ -1,0 +1,93 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* h1 {
+  background-color: red;
+  border: 3px solid black;
+}
+
+p {
+  background-color: blue;
+  color: white;
+}
+*/
+
+/* 
+.parrafo {
+  background-color: black;
+} */
+
+/*
+h1.parrafo {
+  background-color: blue;
+  color: white;
+}
+
+p.parrafo.parrafo01 {
+  background-color: black;
+  color: white;
+} */
+
+/* #parrafo02 {
+  background-color: blue;
+  color: white;
+} */
+
+/* h1,
+p,
+button,
+.parrafo,
+#parrafo02 {
+  background-color: blue;
+  color: white;
+}
+ */
+/* 
+body {
+  background-color: black;
+  margin: 100px;
+}
+
+h1 {
+  background-color: white;
+  color: black;
+} */
+
+/* h1[class] {
+  background-color: purple;
+  color: white;
+} */
+
+/* h1[class="parrafo"] {
+  background-color: purple;
+  color: white;
+}
+
+h1[class~="parrafo"] {
+  background-color: violet;
+  color: white;
+}
+
+.parrafo {
+  background-color: black;
+} */
+
+/* h1 {
+  background: black;
+  color: white;
+}
+
+h1:hover {
+  background-color: purple;
+}
+ */
+
+h1::before {
+  content: "❤️";
+}
+
+h1::after {
+  content: "👌";
+}
