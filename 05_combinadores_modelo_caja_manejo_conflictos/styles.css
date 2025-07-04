@@ -1,0 +1,33 @@
+/* 0 - 0 - 1 */
+h1 {
+  background-color: yellow;
+}
+/* 0 - 0 - 1 */
+h1 {
+  background-color: blue !important;
+}
+
+/* 0 - 1 - 0 */
+.titulo {
+  background-color: purple;
+}
+/* 0 - 1 - 1 */
+div .titulo {
+  background-color: skyblue;
+}
+/* 0 - 1 - 2 */
+div div .titulo {
+  background-color: burlywood;
+}
+/* 0 - 1 - 2 */
+div div .titulo {
+  background-color: chocolate;
+}
+/* 1 - 0 - 0 */
+#tid {
+  background-color: darkgreen;
+}
+/* 1 - 0 - 1 */
+div #tid {
+  background-color: greenyellow;
+}
