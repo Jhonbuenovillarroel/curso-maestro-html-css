@@ -1,0 +1,30 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 2000px;
+}
+
+.container {
+  width: 200px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 200px;
+  opacity: 0.25;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
