@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header
+      class="sticky z-[1] top-0 bg-zinc-100 sm:h-[100px] flex justify-between px-4 md:px-8 lg:px-10 h-[70px] items-center shadow-xl"
+    >
+      <div class="flex items-center gap-4">
+        <div
+          class="w-10 sm:w-14 h-10 sm:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center bg-purple-600"
+        >
+          <p class="text-zinc-100 font-bold text-lg sm:text-2xl">JB</p>
+        </div>
+        <p class="text-2xl font-bold hidden sm:flex">Jhon Bueno</p>
+      </div>
+      <div class="lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-menu-icon lucide-menu"
+        >
+          <path d="M4 12h16" />
+          <path d="M4 18h16" />
+          <path d="M4 6h16" />
+        </svg>
+      </div>
+
+      <nav class="hidden lg:flex">
+        <ul class="flex items-center gap-6">
+          <li>
+            <a href="" class="text-base font-medium text-zinc-600">Inicio</a>
+          </li>
+          <li>
+            <a href="" class="text-base font-medium text-zinc-600">Sobre mí</a>
+          </li>
+          <li>
+            <a href="" class="text-base font-medium text-zinc-600"
+              >Habilidades</a
+            >
+          </li>
+          <li>
+            <a href="" class="text-base font-medium text-zinc-600">Proyectos</a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-base font-medium text-zinc-100 bg-gradient-to-r from-violet-600 to-purple-600 h-10 rounded-full px-8 flex items-center justify-center"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20">
+        <div class="flex flex-col gap-5 sm:gap-8 items-center">
+          <div
+            class="w-24 h-24 sm:w-32 lg:w-44 sm:h-32 lg:h-44 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full"
+          ></div>
+
+          <h1 class="text-center text-4xl sm:text-5xl lg:text-7xl font-bold">
+            Hola, soy
+            <span
+              class="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent"
+              >Jhon Bueno</span
+            >
+          </h1>
+          <p
+            class="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-600"
+          >
+            Desarrollador Full Stack
+          </p>
+          <p
+            class="text-center text-zinc-600 text-lg sm:text-xl lg:text-2xl leading-8 sm:leading-9 lg:leading-10"
+          >
+            Creo experiencias digitales excepcionales y soluciones innovadoras
+            que transforman ideas en realidad. Especializado en tecnologías
+            modernas con más de 4 años de experiencia.
+          </p>
+
+          <div
+            class="flex flex-col sm:flex-row sm:justify-center gap-4 w-full mt-8"
+          >
+            <a
+              href=""
+              class="bg-gradient-to-r from-violet-600 to-purple-600 text-zinc-100 rounded-full h-14 flex items-center justify-center text-center w-full sm:w-fit text-lg font-medium px-8"
+              >Ver mis proyectos</a
+            >
+            <a
+              href=""
+              class="border-2 border-purple-600 text-purple-600 rounded-full h-14 flex items-center justify-center text-center w-full sm:w-fit px-8 text-lg font-medium"
+              >Hablemos</a
+            >
+          </div>
+
+          <div
+            class="grid grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mt-8 w-full"
+          >
+            <div class="flex flex-col gap-2 items-center">
+              <p class="text-3xl font-bold text-purple-600">4+</p>
+              <p class="text-center font-medium text-zinc-600">
+                Años de experiencia
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 items-center">
+              <p class="text-3xl font-bold text-violet-600">20+</p>
+              <p class="text-center font-medium text-zinc-600">
+                Proyectos completados
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 items-center">
+              <p class="text-3xl font-bold text-pink-600">20+</p>
+              <p class="text-center font-medium text-zinc-600">
+                Clientes satisfechos
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 items-center">
+              <p class="text-3xl font-bold text-pink-500">24/7</p>
+              <p class="text-center font-medium text-zinc-600">
+                Soporte disponible
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20 flex flex-col lg:items-center lg:flex-row gap-12 lg:gap-20 overflow-x-hidden"
+      >
+        <div
+          class="bg-gradient-to-r h-fit lg:min-w-[450px] from-violet-600 to-purple-600 rounded-xl px-8 py-8 lg:py-10 lg:px-10 rotate-2 hover:rotate-0 transition-all duration-500 relative lg:order-2"
+        >
+          <div
+            class="absolute z-[1] -top-5 -left-3 w-20 h-20 bg-gradient-to-r from-pink-400 to-rose-400 rounded-2xl flex items-center justify-center -rotate-10"
+          >
+            <p class="text-2xl">⚡</p>
+          </div>
+          <div
+            class="absolute z-[1] -bottom-5 -right-3 w-16 h-16 bg-gradient-to-r from-teal-400 to-teal-500 rounded-xl flex items-center justify-center rotate-6"
+          >
+            <p class="text-xl">🚀</p>
+          </div>
+
+          <div
+            class="flex flex-col px-6 lg:px-8 py-7 lg:py-9 gap-3 items-center justify-center bg-white/10 rounded-xl backdrop-blur-[6px]"
+          >
+            <p class="text-6xl lg:text-8xl">👨‍💻</p>
+            <p class="font-bold text-xl lg:text-2xl text-center text-zinc-100">
+              Desarrollando el futuro
+            </p>
+            <p class="text-zinc-300 text-center">
+              Una línea de código a la vez
+            </p>
+          </div>
+        </div>
+
+        <div class="lg:order-1">
+          <div class="flex flex-col gap-4">
+            <p class="uppercase text-sm text-violet-600 font-medium">
+              Conoce más sobre mí
+            </p>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold">
+              Pasión por la
+              <span
+                class="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
+                >innovación</span
+              >
+            </h2>
+            <p class="text-zinc-600 leading-8 text-lg">
+              Soy un desarrollador full stack con más de 4 años de experiencia
+              creando aplicaciones web que marcan la diferencia. Mi especialidad
+              está en tecnologías modernas como React, Next.js, Node.js y
+              arquitecturas cloud escalables.
+            </p>
+            <p class="text-zinc-600 leading-8 text-lg">
+              Mi enfoque va más allá del código: me apasiona entender las
+              necesidades del negocio y traducirlas en soluciones técnicas
+              elegantes y eficientes. Creo firmemente en el poder del código
+              limpio, las mejores prácticas y el aprendizaje continuo.
+            </p>
+            <p class="text-zinc-600 leading-8 text-lg">
+              Cuando no estoy programando, me encontrarás explorando nuevas
+              tecnologías o compartiendo conocimiento con la comunidad de
+              desarrolladores.
+            </p>
+          </div>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <div
+              class="bg-purple-100 w-fit px-4 rounded-full h-9 flex items-center justify-center"
+            >
+              <p class="text-sm font-medium text-purple-600">Innovador</p>
+            </div>
+            <div
+              class="bg-purple-100 w-fit px-4 rounded-full h-9 flex items-center justify-center"
+            >
+              <p class="text-sm font-medium text-purple-600">Colaborativo</p>
+            </div>
+            <div
+              class="bg-purple-100 w-fit px-4 rounded-full h-9 flex items-center justify-center"
+            >
+              <p class="text-sm font-medium text-pink-600">
+                Orientado a resultados
+              </p>
+            </div>
+            <div
+              class="bg-purple-100 w-fit px-4 rounded-full h-9 flex items-center justify-center"
+            >
+              <p class="text-sm font-medium text-pink-600">Mentor</p>
+            </div>
+          </div>
+          <div class="mt-8">
+            <p class="flex gap-2 items-center text-purple-600 font-medium">
+              <span>Hablemos de tu proyecto</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right-icon lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20 flex flex-col gap-10"
+      >
+        <div class="flex flex-col items-center gap-4">
+          <p class="uppercase text-sm text-center text-violet-600 font-medium">
+            Mi arsenal tecnológico
+          </p>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
+            Habilidades y
+            <span
+              class="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
+              >tecnologías</span
+            >
+          </h2>
+          <p class="text-zinc-600 text-center leading-8 text-lg">
+            Domino un amplio conjunto de tecnologías modernas para crear
+            soluciones completas y escalables
+          </p>
+        </div>
+
+        <!-- Contenedor de las tarjetas -->
+        <div class="flex flex-col sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Tarjeta 01 -->
+          <div class="px-5 flex flex-col gap-6 shadow-xl py-6 rounded-2xl">
+            <div class="flex gap-4 items-center">
+              <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-violet-600 to-purple-600 flex items-center justify-center"
+              >
+                <p class="text-2xl">🎨</p>
+              </div>
+              <p class="text-2xl font-bold">Frontend</p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">React & Next.js</p>
+                  <p class="font-medium text-purple-600">95%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[95%] rounded-[inherit] h-full bg-purple-600"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">TypeScript</p>
+                  <p class="font-medium text-purple-600">90%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[90%] rounded-[inherit] h-full bg-purple-600"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">TailwindCSS</p>
+                  <p class="font-medium text-purple-600">98%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[98%] rounded-[inherit] h-full bg-purple-600"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap">
+              <div
+                class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-purple-600">React</p>
+              </div>
+              <div
+                class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-purple-600">Next.js</p>
+              </div>
+              <div
+                class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-pink-600">TailwindCSS</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta 02 -->
+          <div class="px-5 flex flex-col gap-6 shadow-xl py-6 rounded-2xl">
+            <div class="flex gap-4 items-center">
+              <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center"
+              >
+                <p class="text-2xl">⚙️</p>
+              </div>
+              <p class="text-2xl font-bold">Backend</p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">Node.js</p>
+                  <p class="font-medium text-teal-600">92%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[92%] rounded-[inherit] h-full bg-teal-500"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">ExpressJS</p>
+                  <p class="font-medium text-teal-600">85%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[85%] rounded-[inherit] h-full bg-teal-600"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">MySQL</p>
+                  <p class="font-medium text-teal-600">88%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[88%] rounded-[inherit] h-full bg-teal-600"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap">
+              <div
+                class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-teal-600">ExpressJS</p>
+              </div>
+              <div
+                class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-teal-600">Node.js</p>
+              </div>
+              <div
+                class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-teal-600">MySQL</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta 03 -->
+          <div
+            class="px-5 flex flex-col sm:col-span-2 lg:col-span-1 gap-6 shadow-xl py-6 rounded-2xl"
+          >
+            <div class="flex gap-4 items-center">
+              <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center"
+              >
+                <p class="text-2xl">🛠️</p>
+              </div>
+              <p class="text-2xl font-bold">DevOps & Tools</p>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">Git y Github</p>
+                  <p class="font-medium text-orange-600">96%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[96%] rounded-[inherit] h-full bg-gradient-to-r from-orange-500 to-red-500"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">Docker</p>
+                  <p class="font-medium text-orange-600">80%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[90%] rounded-[inherit] h-full bg-gradient-to-r from-orange-500 to-red-500"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                  <p class="text-zinc-700 font-medium">AWS</p>
+                  <p class="font-medium text-orange-600">75%</p>
+                </div>
+                <div class="">
+                  <div class="w-full h-2 rounded-full bg-zinc-300">
+                    <div
+                      class="w-[98%] rounded-[inherit] h-full bg-gradient-to-r from-orange-500 to-red-500"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap">
+              <div
+                class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-orange-600">Vercel</p>
+              </div>
+              <div
+                class="bg-red-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-red-600">Netlify</p>
+              </div>
+              <div
+                class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+              >
+                <p class="text-xs font-medium text-orange-600">CI/CD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20 flex flex-col gap-10"
+      >
+        <div class="flex flex-col items-center gap-4">
+          <p class="uppercase text-sm text-center text-violet-600 font-medium">
+            Mi trabajo
+          </p>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
+            Proyectos
+            <span
+              class="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
+              >destacados</span
+            >
+          </h2>
+          <p class="text-zinc-600 text-center leading-8 text-lg sm:text-xl">
+            Una selección de mis trabajos más recientes que demuestran mi
+            experiencia y creatividad
+          </p>
+        </div>
+
+        <!-- Contenedor de las tarjetas -->
+        <div class="flex flex-col gap-10 lg:grid lg:grid-cols-2">
+          <!-- Contenedor 01 -->
+          <div
+            class="rounded-2xl shadow-xl pb-9 lg:grid lg:grid-cols-2 lg:col-span-2"
+          >
+            <!-- Izquierda -->
+            <div
+              class="bg-gradient-to-r from-violet-600/75 to-purple-600/75 py-10 px-8 rounded-t-[inherit] h-[240px] lg:h-full lg:rounded-r-none lg:rounded-l-[inherit] flex items-center justify-center"
+            >
+              <p class="text-center text-6xl">🛍️</p>
+            </div>
+
+            <!-- Derecha -->
+            <div class="lg:pb-8">
+              <div class="pt-6 px-6 flex flex-col gap-5">
+                <div class="flex gap-4 items-center">
+                  <div
+                    class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-purple-600">
+                      Proyecto destacado
+                    </p>
+                  </div>
+                  <p class="text-zinc-600 text-sm">2024</p>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                  <p class="text-2xl lg:text-3xl font-bold">
+                    E-commerce avanzado
+                  </p>
+                  <p class="text-zinc-600 leading-6">
+                    Plataforma de comercio electrónico completa con carrito
+                    inteligente, sistema de pagos integrado, panel de
+                    administración avanzado y analytics en tiempo real.
+                    Construida con las últimas tecnologías.
+                  </p>
+                </div>
+
+                <div class="flex gap-3 flex-wrap">
+                  <div
+                    class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-purple-600">Next.js</p>
+                  </div>
+                  <div
+                    class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-purple-600">
+                      TypeScript
+                    </p>
+                  </div>
+                  <div
+                    class="bg-red-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-red-600">Stripe</p>
+                  </div>
+                  <div
+                    class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-emerald-600">
+                      PostgreSQL
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col sm:flex-row gap-4 w-full mt-8 px-8">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-violet-600 to-purple-600 text-zinc-100 rounded-full h-12 flex items-center justify-center gap-2 text-center w-full text-base font-medium sm:w-fit px-8"
+                  >Ver mis proyectos
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"
+                  >
+                    <path
+                      d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"
+                    />
+                    <path d="m21 3-9 9" />
+                    <path d="M15 3h6v6" />
+                  </svg>
+                </a>
+                <a
+                  href=""
+                  class="border-2 border-purple-600 text-purple-600 rounded-full h-12 flex items-center justify-center text-center w-full text-base font-medium sm:w-fit px-8"
+                  >Hablemos</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Contenedor 02 -->
+          <div class="rounded-2xl shadow-xl pb-9">
+            <div
+              class="bg-gradient-to-r from-emerald-400/75 to-teal-500/75 py-10 px-8 rounded-t-[inherit] h-[240px] flex items-center justify-center"
+            >
+              <p class="text-center text-6xl">📊</p>
+            </div>
+
+            <div class="pt-6 px-6 flex flex-col gap-5">
+              <div class="flex flex-col gap-3">
+                <p class="text-xl font-bold">App de productividad</p>
+                <p class="text-zinc-600 leading-6">
+                  Aplicación móvil para gestión de tareas con sincronización en
+                  tiempo real, colaboración en equipo y analytics de
+                  productividad.
+                </p>
+              </div>
+
+              <div class="flex gap-3 flex-wrap">
+                <div
+                  class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                >
+                  <p class="text-xs font-medium text-emerald-600">
+                    React Native
+                  </p>
+                </div>
+                <div
+                  class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                >
+                  <p class="text-xs font-medium text-emerald-600">Firebase</p>
+                </div>
+                <div
+                  class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                >
+                  <p class="text-xs font-medium text-emerald-600">Redux</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-3 w-full mt-8 px-8">
+              <a href="" class="text-emerald-600 font-medium text-sm"
+                >Ver demo
+              </a>
+              <a href="" class="font-medium text-sm text-zinc-600">Código</a>
+            </div>
+          </div>
+
+          <!-- Contenedor 03 -->
+          <div class="rounded-2xl shadow-xl pb-9">
+            <div
+              class="bg-gradient-to-r from-orange-500/75 to-red-500/75 py-10 px-8 rounded-t-[inherit] h-[240px] flex items-center justify-center"
+            >
+              <p class="text-center text-6xl">🎯</p>
+            </div>
+
+            <div class="pt-6 px-8 flex flex-col gap-5">
+              <div class="flex flex-col gap-3">
+                <p class="text-xl font-bold">Dashboard Analytics</p>
+                <p class="text-zinc-600 leading-6">
+                  Panel de control empresarial con visualizaciones interactivas,
+                  reportes automatizados y análisis predictivo de datos.
+                </p>
+              </div>
+
+              <div class="flex gap-3 flex-wrap">
+                <div
+                  class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                >
+                  <p class="text-xs font-medium text-orange-600">Vue.js</p>
+                </div>
+                <div
+                  class="bg-red-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                >
+                  <p class="text-xs font-medium text-red-600">D3.js</p>
+                </div>
+                <div
+                  class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                >
+                  <p class="text-xs font-medium text-orange-600">Python</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-3 w-full mt-8 px-8">
+              <a href="" class="text-orange-600 font-medium text-sm"
+                >Ver demo
+              </a>
+              <a href="" class="font-medium text-sm text-zinc-600">Código</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a
+            href=""
+            class="bg-gradient-to-r from-violet-600 to-purple-600 text-zinc-100 rounded-full h-14 flex items-center gap-2 justify-center text-center w-fit px-8 mx-auto text-base font-medium"
+          >
+            <span>Ver todos los proyectos</span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-move-right-icon lucide-move-right"
+            >
+              <path d="M18 8L22 12L18 16" />
+              <path d="M2 12H22" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section
+        class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20 flex flex-col gap-10"
+      >
+        <div class="flex flex-col items-center gap-4">
+          <p class="uppercase text-sm text-center text-violet-600 font-medium">
+            Mi trayectoria
+          </p>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
+            Experiencia
+            <span
+              class="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
+              >Profesional</span
+            >
+          </h2>
+          <p class="text-zinc-600 text-center leading-8 text-lg">
+            Mi evolución profesional a través de diferentes roles y
+            responsabilidades
+          </p>
+        </div>
+
+        <div class="flex flex-row gap-10 relative">
+          <!-- Timeline -->
+          <div
+            class="relative left-4 lg:left-1/2 lg:-translate-x-1/2 min-h-full min-w-[2px] bg-purple-500 left-0"
+          ></div>
+
+          <!-- Contenedor de las tarjetas -->
+          <div class="flex flex-col gap-10">
+            <!-- Tarjeta 01 -->
+            <div class="lg:grid lg:grid-cols-2 lg:gap-x-20">
+              <!-- Columna Izquierda -->
+              <div
+                class="flex flex-col gap-4 px-6 py-6 shadow-xl rounded-2xl relative"
+              >
+                <!-- Bola Morada -->
+                <div
+                  class="p-0.5 bg-zinc-100 absolute top-1/2 -left-6.5 lg:left-[calc(100%+13.5px)]"
+                >
+                  <div class="w-2 h-2 bg-purple-600 rounded-full"></div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <p class="text-sm text-purple-600 font-medium">
+                    2023 - Presente
+                  </p>
+                  <p class="text-xl font-bold">
+                    Desarrollador Senior Full Stack
+                  </p>
+                  <p class="text-purple-600 font-medium">TechCorp Solutions</p>
+                  <p class="text-zinc-600 leading-7">
+                    Lidero el desarrollo de aplicaciones web complejas y
+                    arquitecturas escalables. Responsable de la mentoría de
+                    desarrolladores junior y la implementación de mejores
+                    prácticas.
+                  </p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <div
+                    class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-purple-600">React</p>
+                  </div>
+                  <div
+                    class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-purple-600">Next.js</p>
+                  </div>
+                  <div
+                    class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-emerald-600">Node.js</p>
+                  </div>
+                  <div
+                    class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-orange-600">AWS</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Columna derecha vacía -->
+              <div></div>
+            </div>
+
+            <!-- Tarjeta 02 -->
+            <div class="lg:grid lg:grid-cols-2 lg:gap-x-20">
+              <!-- Columna Izquierda vacía -->
+              <div></div>
+
+              <!-- Columna Derecha -->
+              <div
+                class="flex flex-col gap-4 px-6 py-6 shadow-xl rounded-2xl relative"
+              >
+                <!-- Bola Morada -->
+                <div
+                  class="p-0.5 bg-zinc-100 absolute top-1/2 -left-6.5 lg:-left-[67px]"
+                >
+                  <div class="w-2 h-2 bg-purple-600 rounded-full"></div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <p class="text-sm text-purple-600 font-medium">2022 - 2023</p>
+                  <p class="text-xl font-bold">Desarrollador Full Stack</p>
+                  <p class="text-purple-600 font-medium">StartupXYZ</p>
+                  <p class="text-zinc-600 leading-7">
+                    Desarrollé desde cero la plataforma principal de la startup,
+                    implementando funcionalidades críticas y optimizando el
+                    rendimiento para manejar miles de usuarios concurrentes.
+                  </p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <div
+                    class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-emerald-600">
+                      PostgreSQL
+                    </p>
+                  </div>
+                  <div
+                    class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-emerald-600">
+                      ExpressJS
+                    </p>
+                  </div>
+                  <div
+                    class="bg-emerald-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-emerald-600">NodeJS</p>
+                  </div>
+                  <div
+                    class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-orange-600">MySQL</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjeta 03 -->
+            <div class="lg:grid lg:grid-cols-2 lg:gap-x-20">
+              <!-- Columna Izquierda -->
+              <div
+                class="flex flex-col gap-4 px-6 py-6 shadow-xl rounded-2xl relative"
+              >
+                <div
+                  class="p-0.5 bg-zinc-100 absolute top-1/2 -left-6.5 lg:left-[calc(100%+13.5px)]"
+                >
+                  <div class="w-2 h-2 bg-purple-600 rounded-full"></div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <p class="text-sm text-purple-600 font-medium">2021 - 2022</p>
+                  <p class="text-xl font-bold">Desarrollador Frontend</p>
+                  <p class="text-purple-600 font-medium">WebAgency Pro</p>
+                  <p class="text-zinc-600 leading-7">
+                    Especializado en crear interfaces de usuario excepcionales y
+                    experiencias web interactivas para clientes de diversos
+                    sectores.
+                  </p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <div
+                    class="bg-red-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-red-600">HTML</p>
+                  </div>
+                  <div
+                    class="bg-red-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-red-600">CSS</p>
+                  </div>
+                  <div
+                    class="bg-purple-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-purple-600">
+                      JavaScript
+                    </p>
+                  </div>
+                  <div
+                    class="bg-orange-100 w-fit px-4 rounded-full h-6 flex items-center justify-center"
+                  >
+                    <p class="text-xs font-medium text-orange-600">ReactJS</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Columna Derecha vacía -->
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20 flex flex-col gap-14"
+      >
+        <div class="flex flex-col items-center gap-4">
+          <p class="uppercase text-sm text-center text-violet-600 font-medium">
+            Lo que dicen de mí
+          </p>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
+            Testimonios de
+            <span
+              class="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
+              >Clientes</span
+            >
+          </h2>
+        </div>
+
+        <!-- Contenedor de los testimonios -->
+        <div class="flex flex-col gap-10 md:grid md:grid-cols-2 lg:grid-cols-3">
+          <!-- Contenedor Testimonio 01 -->
+          <div class="px-6 py-6">
+            <div class="flex gap-4 items-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full flex items-center justify-center"
+              >
+                <p class="text-base font-bold text-zinc-100">M</p>
+              </div>
+              <div>
+                <p class="font-bold">María Gonzales</p>
+                <p class="text-sm text-zinc-600">CEO, TechStart</p>
+              </div>
+            </div>
+
+            <p class="text-zinc-700 leading-7 mt-3">
+              Jhon transformó completamente nuestra visión en una plataforma
+              increíble. Su atención al detalle y capacidad técnica son
+              excepcionales.
+            </p>
+
+            <p class="mt-4">⭐⭐⭐⭐⭐</p>
+          </div>
+          <!-- Contenedor Testimonio 02 -->
+          <div class="px-6 py-6">
+            <div class="flex gap-4 items-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center"
+              >
+                <p class="text-base font-bold text-zinc-100">C</p>
+              </div>
+              <div>
+                <p class="font-bold">Carlos Ruiz</p>
+                <p class="text-sm text-zinc-600">CTO, InnovaCorp</p>
+              </div>
+            </div>
+
+            <p class="text-zinc-700 leading-7 mt-3">
+              Trabajar con Jhon fue una experiencia fantástica. Entregó el
+              proyecto antes de tiempo y superó todas nuestras expectativas.
+            </p>
+
+            <p class="mt-4">⭐⭐⭐⭐⭐</p>
+          </div>
+          <!-- Contenedor Testimonio 03 -->
+          <div class="px-6 py-6 md:col-span-2 lg:col-span-1">
+            <div class="flex gap-4 items-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center"
+              >
+                <p class="text-base font-bold text-zinc-100">A</p>
+              </div>
+              <div>
+                <p class="font-bold">Ana Martín</p>
+                <p class="text-sm text-zinc-600">Fundadora, DigitalPlus</p>
+              </div>
+            </div>
+
+            <p class="text-zinc-700 leading-7 mt-3">
+              La calidad del código y la arquitectura que Jhon implementó nos ha
+              permitido escalar sin problemas. Altamente recomendado.
+            </p>
+
+            <p class="mt-4">⭐⭐⭐⭐⭐</p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-10 px-4 md:px-8 lg:px-10 md:py-14 lg:py-20 bg-gradient-to-br from-violet-900 via-purple-950/90 to-pink-950/80 overflow-x-hidden flex flex-col gap-12"
+      >
+        <div class="flex flex-col items-center gap-4">
+          <p class="uppercase text-sm text-center text-violet-300 font-medium">
+            ¿Listo para empezar?
+          </p>
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl text-zinc-100 font-bold text-center"
+          >
+            ¡Trabajemos
+            <span
+              class="bg-gradient-to-r from-violet-300 via-purple-300 to-pink-300 text-transparent bg-clip-text"
+              >Juntos¡</span
+            >
+          </h2>
+          <p class="text-zinc-300 text-center leading-8 text-lg">
+            ¿Tienes un proyecto en mente? Me encantaría escuchar tu idea y
+            ayudarte a hacerla realidad
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-16 lg:grid lg:grid-cols-2">
+          <!-- Contenedor de la información de contacto -->
+          <div class="flex flex-col gap-4">
+            <p class="text-zinc-100 font-bold text-[22px] lg:text-3xl">
+              Información de Contacto
+            </p>
+
+            <!-- Contenedor de datos de contacto -->
+            <div class="flex flex-col gap-5">
+              <!-- Dato de contacto 01 -->
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-14 min-w-14 h-14 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-2xl">📧</p>
+                </div>
+                <div class="">
+                  <p class="text-lg text-zinc-100 font-bold">Email</p>
+                  <p class="text-wrap text-zinc-300">
+                    jhonadelbuenovillarroel@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <!-- Dato de contacto 02 -->
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-14 min-w-14 h-14 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-2xl">📱</p>
+                </div>
+                <div class="">
+                  <p class="text-lg text-zinc-100 font-bold">Teléfono</p>
+                  <p class="text-wrap text-zinc-300">+51 927 165 123</p>
+                </div>
+              </div>
+              <!-- Dato de contacto 03 -->
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-14 min-w-14 h-14 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-2xl">📍</p>
+                </div>
+                <div class="">
+                  <p class="text-lg text-zinc-100 font-bold">Ubicación</p>
+                  <p class="text-wrap text-zinc-300">Jauja - Perú</p>
+                </div>
+              </div>
+              <!-- Dato de contacto 04 -->
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-14 min-w-14 h-14 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-2xl">⏰</p>
+                </div>
+                <div class="">
+                  <p class="text-lg text-zinc-100 font-bold">Disponibilidad</p>
+                  <p class="text-wrap text-zinc-300">Lun - Vie, 9:00 - 18:00</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="flex flex-col gap-4 mt-4">
+              <p class="text-lg font-bold text-zinc-100">Sígueme en redes</p>
+
+              <!-- Contenedor de las redes sociales -->
+              <div class="flex gap-3">
+                <div
+                  class="w-12 min-w-12 h-12 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-xl">💼</p>
+                </div>
+                <div
+                  class="w-12 min-w-12 h-12 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-xl">🐙</p>
+                </div>
+                <div
+                  class="w-12 min-w-12 h-12 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-xl">🐦</p>
+                </div>
+                <div
+                  class="w-12 min-w-12 h-12 bg-zinc-100/15 backdrop-blur-[6px] rounded-2xl flex items-center justify-center"
+                >
+                  <p class="text-xl">📸</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contenedor del formulario -->
+          <div>
+            <form
+              class="bg-zinc-100/10 border border-zinc-500 backdrop-blur-[6px] px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10 rounded-2xl flex flex-col gap-5"
+            >
+              <div>
+                <p class="text-2xl lg:text-3xl font-bold text-zinc-100">
+                  Envíame un mensaje
+                </p>
+              </div>
+
+              <!-- Contenedor de los campos -->
+              <div class="flex flex-col gap-3">
+                <div class="sm:grid sm:grid-cols-2 sm:gap-4">
+                  <!-- Nombre -->
+                  <label for="" class="flex flex-col gap-2">
+                    <span class="text-sm font-medium text-zinc-100"
+                      >Nombre *</span
+                    >
+                    <input
+                      class="w-full border border-zinc-400/50 bg-zinc-50/1 backdrop-blur-[6px] rounded-2xl h-12 px-4 placeholder:text-zinc-300 placeholder:text-base"
+                      type="text"
+                      placeholder="Tu nombre"
+                    />
+                  </label>
+
+                  <!-- Email -->
+                  <label for="" class="flex flex-col gap-2">
+                    <span class="text-sm font-medium text-zinc-100"
+                      >Email *</span
+                    >
+                    <input
+                      class="w-full border border-zinc-400/50 bg-zinc-50/1 backdrop-blur-[6px] rounded-2xl h-12 px-4 placeholder:text-zinc-300 placeholder:text-base"
+                      type="text"
+                      placeholder="tu@email.com"
+                    />
+                  </label>
+                </div>
+
+                <!-- Asunto -->
+                <label for="" class="flex flex-col gap-2">
+                  <span class="text-sm font-medium text-zinc-100"
+                    >Asunto *</span
+                  >
+                  <input
+                    class="w-full border border-zinc-400/50 bg-zinc-50/1 backdrop-blur-[6px] rounded-2xl h-12 px-4 placeholder:text-zinc-300 placeholder:text-base"
+                    type="text"
+                    placeholder="¿En qué puedo ayudarte?"
+                  />
+                </label>
+
+                <!-- Presupuesto estimado -->
+                <label for="" class="flex flex-col gap-2">
+                  <span class="text-sm font-medium text-zinc-100"
+                    >Presupuesto estimado</span
+                  >
+
+                  <select
+                    class="w-full border border-zinc-400/50 bg-zinc-50/1 backdrop-blur-[6px] rounded-2xl h-12 px-4 placeholder:text-zinc-300 placeholder:text-base text-zinc-100"
+                    name=""
+                    id=""
+                  >
+                    <option value="" class="bg-zinc-800 text-zinc-100">
+                      Selecciona un rango
+                    </option>
+                    <option value="" class="bg-zinc-800 text-zinc-100">
+                      S/1000 - S/5000
+                    </option>
+                    <option value="" class="bg-zinc-800 text-zinc-100">
+                      S/5000 - S/10000
+                    </option>
+                    <option value="" class="bg-zinc-800 text-zinc-100">
+                      S/10000 - S/25000
+                    </option>
+                    <option value="" class="bg-zinc-800 text-zinc-100">
+                      S/25000+
+                    </option>
+                  </select>
+                </label>
+
+                <!-- Mensaje -->
+                <label for="" class="flex flex-col gap-2">
+                  <span class="text-sm font-medium text-zinc-100"
+                    >Mensaje *</span
+                  >
+
+                  <textarea
+                    placeholder="Cuéntame sobre tu proyecto, objetivos y cualquier detalle importante..."
+                    rows="5"
+                    class="w-full py-2 border border-zinc-400/50 bg-zinc-50/1 backdrop-blur-[6px] rounded-2xl px-4 placeholder:text-zinc-300 placeholder:text-base"
+                  ></textarea>
+                </label>
+              </div>
+
+              <button
+                class="h-14 bg-gradient-to-r from-violet-500 to-purple-500 rounded-2xl text-lg font-medium text-zinc-100"
+              >
+                Enviar mensaje
+              </button>
+
+              <p class="text-zinc-300 text-center text-sm">
+                * Respondo todos los mensajes en menos de 24 horas
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 px-4 md:px-8 lg:px-10 py-12">
+      <section
+        class="md:grid md:grid-cols-4 md:gap-8 w-full max-w-[900px] mx-auto"
+      >
+        <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-2">
+            <div class="flex items-center gap-3">
+              <div
+                class="bg-gradient-to-r from-violet-600 to-purple-600 w-10 h-10 flex items-center justify-center rounded-xl"
+              >
+                <p class="text-zinc-100 font-bold">JB</p>
+              </div>
+              <p class="text-zinc-100 text-xl font-bold">Jhon Bueno</p>
+            </div>
+            <p class="text-zinc-400 text-base mt-3 md:mt-0">
+              Desarrollando el futuro, una línea de código a la vez.
+              Especializado en crear soluciones digitales que transforman
+              negocios.
+            </p>
+          </div>
+          <div class="flex gap-3 mt-4 md:mt-0">
+            <div
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center"
+            >
+              <p class="text-zinc-100 font-bold text-sm">💼</p>
+            </div>
+            <div
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center"
+            >
+              <p class="text-zinc-100 font-bold text-sm">🐙</p>
+            </div>
+            <div
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center"
+            >
+              <p class="text-zinc-100 font-bold text-sm">🐦</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-5 md:py-0">
+          <p class="text-purple-400 text-lg font-bold">Enlaces Rápidos</p>
+          <nav class="mt-2 md:mt-0">
+            <ul class="flex flex-col gap-1">
+              <li>
+                <a href="#" class="text-zinc-400">Inicio</a>
+              </li>
+              <li>
+                <a href="#" class="text-zinc-400">Sobre mí</a>
+              </li>
+              <li>
+                <a href="#" class="text-zinc-400">Habilidades</a>
+              </li>
+              <li>
+                <a href="#" class="text-zinc-400">Proyectos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="text-purple-400 font-bold text-lg">Servicios</p>
+
+          <div class="flex flex-col gap-1 mt-2 md:mt-0">
+            <p class="text-zinc-400">Desarrollo Web</p>
+            <p class="text-zinc-400">Aplicaciones Móviles</p>
+            <p class="text-zinc-400">Consultoria Técnica</p>
+            <p class="text-zinc-400">Arquitectura de Software</p>
+          </div>
+        </div>
+
+        <div class="py-5 md:py-0">
+          <p class="text-purple-400 font-bold text-lg">Contacto</p>
+
+          <div class="flex flex-col gap-1 mt-2 md:mt-0 overflow-x-hidden">
+            <p class="text-zinc-400">📧 jhonadelbuenovillarroel@gmail.com</p>
+            <p class="text-zinc-400">
+              📱 <a href="#" class="text-purple-400">+51 927165123</a>
+            </p>
+            <p class="text-zinc-400">📍 Jauja, Perú</p>
+            <p class="text-zinc-400">⏰ Lun - Vie, 9:00 - 18:00</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="pt-10 pb-2">
+        <p class="text-zinc-400 text-center">
+          © 2025 Jhon Bueno. Todos los derechos reservados. | Desarrollado con
+          ❤️ para ustedes
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
