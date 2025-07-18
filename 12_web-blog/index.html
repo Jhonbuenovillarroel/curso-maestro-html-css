@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="flex items-center justify-between px-4 h-[80px] shadow-xl">
+      <div class="flex items-center gap-3">
+        <div class="relative">
+          <div
+            class="w-4 h-4 absolute -top-1 -right-1 bg-gradient-to-r from-orange-400 to-pink-400 rounded-full animate-pulse"
+          ></div>
+          <div
+            class="w-10 h-10 rounded-xl bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 flex items-center justify-center"
+          >
+            <p class="text-zinc-100 font-bold text-lg">T</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-xl font-bold">TechBlog</p>
+          <p class="text-zinc-600 text-sm">Innovación Digital</p>
+        </div>
+      </div>
+
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-menu-icon lucide-menu"
+        >
+          <path d="M4 12h16" />
+          <path d="M4 18h16" />
+          <path d="M4 6h16" />
+        </svg>
+      </div>
+    </header>
+
+    <!-- Bienvenida o presentación -->
+    <section class="py-10 px-4">
+      <div
+        class="flex items-center gap-2 shadow-xl w-fit h-9 flex items-center justify-center px-4 rounded-full mx-auto"
+      >
+        <div class="w-2 h-2 rounded-full bg-green-600 animate-pulse"></div>
+        <p class="text-sm font-medium text-zinc-700">Actualizado diariamente</p>
+      </div>
+
+      <div class="mt-10 flex flex-col gap-4">
+        <h1 class="text-4xl leading-[44px] font-bold text-center text-zinc-800">
+          El Futuro de la
+          <span
+            class="bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 text-transparent bg-clip-text"
+            >Tecnología</span
+          >
+          <br />
+          <span class="text-zinc-600 font-medium text-3xl">Está Aquí</span>
+        </h1>
+        <p class="text-center text-lg text-zinc-600">
+          Descubre las últimas tendencias, innovaciones revolucionarias y
+          análisis profundos del mundo tecnológico. Mantente al día con
+          contenido de calidad premium y perspectivas únicas de expertos de la
+          industria.
+        </p>
+
+        <div class="flex flex-col gap-3 mt-8">
+          <a
+            href=""
+            class="h-14 bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-full flex items-center justify-center text-zinc-100 font-medium text-lg"
+            >Explorar Artículos</a
+          >
+          <a
+            href=""
+            class="h-14 bg-zinc-100 rounded-full flex items-center justify-center text-zinc-700 border-2 border-zinc-300 font-medium text-lg"
+            >Ver Newsletter</a
+          >
+        </div>
+      </div>
+
+      <!-- Contenedor de las estadísticas -->
+      <div class="grid grid-cols-2 gap-8 mt-12">
+        <div class="flex flex-col gap-1">
+          <p class="text-violet-600 font-bold text-xl text-center">1M+</p>
+          <p class="text-zinc-600 font-medium text-sm text-center">
+            Lectores Mensuales
+          </p>
+        </div>
+        <div class="flex flex-col gap-1">
+          <p class="text-violet-600 font-bold text-xl text-center">500+</p>
+          <p class="text-zinc-600 font-medium text-sm text-center">
+            Artículos Publicados
+          </p>
+        </div>
+        <div class="flex flex-col gap-1">
+          <p class="text-violet-600 font-bold text-xl text-center">50K+</p>
+          <p class="text-zinc-600 font-medium text-sm text-center">
+            Suscriptores
+          </p>
+        </div>
+        <div class="flex flex-col gap-1">
+          <p class="text-violet-600 font-bold text-xl text-center">4.9★</p>
+          <p class="text-zinc-600 font-medium text-sm text-center">
+            Valoración
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de categorías del blog -->
+    <section class="py-10 px-4">
+      <div class="flex flex-col gap-3">
+        <h2 class="text-center text-3xl font-bold">Explora por categorías</h2>
+        <p class="text-zinc-600 text-center text-lg">
+          Encuentra exactamente lo que buscas en nuestras categorías
+          especializadas
+        </p>
+      </div>
+
+      <!-- Contenedor de las categorías -->
+      <div class="grid grid-cols-2 gap-4 mt-12">
+        <!-- Categoría 01 -->
+        <div
+          class="bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl px-6 py-8 flex flex-col gap-1 items-center"
+        >
+          <p class="text-3xl">🤖</p>
+          <p class="text-lg font-bold text-zinc-100">IA & ML</p>
+          <p class="text-zinc-300 text-sm text-center">120+ artículos</p>
+        </div>
+
+        <!-- Categoría 02 -->
+        <div
+          class="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-xl px-6 py-8 flex flex-col gap-1 items-center"
+        >
+          <p class="text-3xl">💻</p>
+          <p class="text-lg font-bold text-zinc-100">Desarrollo</p>
+          <p class="text-zinc-300 text-sm text-center">85+ artículos</p>
+        </div>
+
+        <!-- Categoría 03 -->
+        <div
+          class="bg-gradient-to-r from-red-500 to-pink-600 rounded-xl px-6 py-8 flex flex-col gap-1 items-center"
+        >
+          <p class="text-3xl">🔒</p>
+          <p class="text-lg font-bold text-zinc-100">Seguridad</p>
+          <p class="text-zinc-300 text-sm text-center">65+ artículos</p>
+        </div>
+
+        <!-- Categoría 04 -->
+        <div
+          class="bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl px-6 py-8 flex flex-col gap-1 items-center"
+        >
+          <p class="text-3xl">⛓️</p>
+          <p class="text-lg font-bold text-zinc-100">Blockchain</p>
+          <p class="text-zinc-300 text-sm text-center">45+ artículos</p>
+        </div>
+
+        <!-- Categoría 05 -->
+        <div
+          class="bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl px-6 py-8 flex flex-col gap-1 items-center"
+        >
+          <p class="text-3xl">🚀</p>
+          <p class="text-lg font-bold text-zinc-100">Startups</p>
+          <p class="text-zinc-300 text-sm text-center">90+ artículos</p>
+        </div>
+
+        <!-- Categoría 06 -->
+        <div
+          class="bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl px-6 py-8 flex flex-col gap-1 items-center"
+        >
+          <p class="text-3xl">📱</p>
+          <p class="text-lg font-bold text-zinc-100">Gadgets</p>
+          <p class="text-zinc-300 text-sm text-center">75+ artículos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de artículos destacados -->
+    <section class="py-10 px-4">
+      <div class="flex flex-col gap-3">
+        <h2 class="text-center text-3xl font-bold">Artículos Destacados</h2>
+        <p class="text-zinc-600 text-center text-lg">
+          Los temas más relevantes y actuales del mundo tecnológico, analizados
+          por nuestros expertos
+        </p>
+      </div>
+
+      <!-- Contenedor de los blogposts -->
+      <div class="flex flex-col gap-10">
+        <!-- Blogpost 01 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute top-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">🔥 Trending</p>
+            </div>
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">
+                Inteligencia Artificial
+              </p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-2xl font-bold">
+              ChatGPT-5: La Revolución de la IA que Cambiará Todo en 2025
+            </p>
+            <p class="text-lg text-zinc-600">
+              Análisis exclusivo de las nuevas capacidades de GPT-5, su impacto
+              en diferentes industrias y cómo prepararse para la próxima era de
+              la inteligencia artificial. Incluye entrevistas con expertos de
+              OpenAI.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 flex items-center justify-center"
+                >
+                  <p class="text-zinc-100 font-bold">MA</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">María Álvarez</p>
+                  <p class="text-zinc-600 text-sm">Editora Senior de IA</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">16 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">
+                  12 min lectura
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <a
+                href=""
+                class="h-14 bg-gradient-to-r from-violet-600 to-fuchsia-600 px-5 text-center rounded-full flex items-center justify-center text-zinc-100 font-medium text-base"
+                >Leer Artículo Completo</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Blogpost 02 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-emerald-600 to-teal-600 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">Desarrollo Web</p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-xl font-bold">
+              Next.js 15: Guía Completa de las Nuevas Características
+            </p>
+            <p class="text-lg text-zinc-600">
+              Exploramos todas las nuevas funcionalidades de Next.js 15 y cómo
+              pueden revolucionar tus proyectos web.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-zinc-300 flex items-center justify-center"
+                >
+                  <p class="text-zinc-800 font-normal text-xs">CR</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">Carlos Ruíz</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">14 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">8 min lectura</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blogpost 03 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-red-600/95 to-pink-600 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">Ciberseguridad</p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-xl font-bold">
+              Ciberseguridad en 2025: Amenazas y Defensas
+            </p>
+            <p class="text-lg text-zinc-600">
+              Las nuevas amenazas cibernéticas y las estrategias más efectivas
+              para proteger tu empresa en el nuevo año.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-zinc-300 flex items-center justify-center"
+                >
+                  <p class="text-zinc-800 font-normal text-xs">AG</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">Ana García</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">12 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">
+                  10 min lectura
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blogpost 04 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-blue-600 to-cyan-600 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">Startups</p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-xl font-bold">
+              El Auge de las Startups de IA en Latinoamérica
+            </p>
+            <p class="text-lg text-zinc-600">
+              Cómo las startups latinoamericanas están liderando la innovación
+              en inteligencia artificial.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-zinc-300 flex items-center justify-center"
+                >
+                  <p class="text-zinc-800 font-normal text-xs">DL</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">Diego López</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">10 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">6 min lectura</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blogpost 05 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-orange-500 to-amber-600 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">Blockchain</p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-xl font-bold">
+              Blockchain Más Allá de las Criptomonedas
+            </p>
+            <p class="text-lg text-zinc-600">
+              Casos de uso reales de blockchain que están transformando
+              industrias tradicionales.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-zinc-300 flex items-center justify-center"
+                >
+                  <p class="text-zinc-800 font-normal text-xs">LM</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">Laura Martín</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">8 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">9 min lectura</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blogpost 06 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">Gadgets</p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-xl font-bold">
+              Los Gadgets Más Innovadores del CES 2025
+            </p>
+            <p class="text-lg text-zinc-600">
+              Resumen completo de los dispositivos más impresionantes
+              presentados en el CES de este año.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-zinc-300 flex items-center justify-center"
+                >
+                  <p class="text-zinc-800 font-normal text-xs">RS</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">Roberto Silva</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">6 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">7 min lectura</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Blogpost 07 -->
+        <div class="rounded-3xl shadow-xl">
+          <div
+            class="bg-gradient-to-r from-violet-700 via-purple-700 to-fuchsia-700 rounded-t-[inherit] h-[250px] relative"
+          >
+            <div
+              class="bg-zinc-100/30 absolute bottom-5 left-5 rounded-full w-fit px-3 py-1"
+            >
+              <p class="text-sm font-medium text-zinc-100">Desarrollo</p>
+            </div>
+          </div>
+
+          <div class="px-8 py-8 flex flex-col gap-4">
+            <p class="text-xl font-bold">
+              Desarrollo Low-Code: ¿El Futuro de la Programación?
+            </p>
+            <p class="text-lg text-zinc-600">
+              Analizamos si las plataformas low-code realmente pueden reemplazar
+              el desarrollo tradicional.
+            </p>
+
+            <div class="flex justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 rounded-xl bg-zinc-300 flex items-center justify-center"
+                >
+                  <p class="text-zinc-800 font-normal text-xs">PV</p>
+                </div>
+                <div class="">
+                  <p class="font-medium">Patricia Vega</p>
+                </div>
+              </div>
+
+              <div>
+                <p class="text-zinc-600 text-sm">4 de Enero, 2025</p>
+                <p class="text-sm text-purple-600 font-medium">
+                  11 min lectura
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <a
+          href=""
+          class="h-16 bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-full flex items-center justify-center text-zinc-100 font-medium text-xl"
+          >Ver Todos los Artículos</a
+        >
+      </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section class="py-10 px-4 md:px-8 lg:px-10">
+      <div class="flex flex-col gap-3">
+        <h2 class="text-center text-3xl font-bold">
+          Lo que dicen Nuestros Lectores
+        </h2>
+        <p class="text-zinc-600 text-center text-lg">
+          Miles de profesionales confían en nosotros para mantenerse
+          actualizados
+        </p>
+      </div>
+
+      <div class="pt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="shadow-xl/10 py-10 px-8 rounded-2xl flex flex-col gap-4">
+          <div class="flex items-center gap-3">
+            <p class="text-yellow-500">★★★★★</p>
+            <p class="text-sm text-zinc-700">5.0</p>
+          </div>
+          <p class="italic text-zinc-600">
+            La mejor hamburguesa que he probado en años. El servicio es súper
+            rápido y la comida siempre llega caliente. Mi familia y yo somos
+            clientes regulares desde hace 3 años.
+          </p>
+
+          <div class="flex gap-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-r from-violet-600 to-fuchsia-600 flex items-center justify-center text-zinc-100 text-base font-bold rounded-full"
+            >
+              <p>MG</p>
+            </div>
+            <div>
+              <p class="font-bold">Maria Gonzales</p>
+              <p class="text-sm text-zinc-600">Cliente desde 2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl/10 py-10 px-8 rounded-2xl flex flex-col gap-4">
+          <div class="flex items-center gap-3">
+            <p class="text-yellow-500">★★★★★</p>
+            <p class="text-sm text-zinc-700">5.0</p>
+          </div>
+          <p class="italic text-zinc-600">
+            Excelente calidad y precios súper justos. El pollo crujiente es
+            espectacular y las papas siempre están perfectas. Lo recomiendo 100%
+            a todos mis amigos.
+          </p>
+
+          <div class="flex gap-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-r from-violet-600 to-fuchsia-600 flex items-center justify-center text-zinc-100 text-base font-bold rounded-full"
+            >
+              <p>CR</p>
+            </div>
+            <div>
+              <p class="font-bold">Carlos Rodriguez</p>
+              <p class="text-sm text-zinc-600">Cliente desde 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl/10 py-10 px-8 rounded-2xl flex flex-col gap-4">
+          <div class="flex items-center gap-3">
+            <p class="text-yellow-500">★★★★★</p>
+            <p class="text-sm text-zinc-700">5.0</p>
+          </div>
+          <p class="italic text-zinc-600">
+            El delivery es increíble, siempre llegan en el tiempo prometido. La
+            comida está deliciosa y mis hijos están súper contentos. Es nuestro
+            restaurante favorito.
+          </p>
+
+          <div class="flex gap-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-r from-violet-600 to-fuchsia-600 flex items-center justify-center text-zinc-100 text-base font-bold rounded-full"
+            >
+              <p>AM</p>
+            </div>
+            <div>
+              <p class="font-bold">Ana Martinez</p>
+              <p class="text-sm text-zinc-600">Cliente desde 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="py-10 px-4 overflow-x-hidden flex flex-col gap-14">
+      <div
+        class="bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 rounded-2xl px-8 py-9 flex flex-col gap-5 relative"
+      >
+        <div
+          class="absolute -top-8 -right-8 w-24 h-24 bg-yellow-400/40 animate-pulse rounded-full"
+        ></div>
+        <div
+          class="absolute -bottom-8 -left-8 w-24 h-24 bg-yellow-400/40 animate-pulse rounded-full"
+        ></div>
+
+        <p class="text-2xl font-bold text-zinc-100">Nuestra Misión</p>
+        <p class="text-zinc-200 text-lg">
+          Democratizar el conocimiento tecnológico y empoderar a las personas
+          para que comprendan y aprovechen las herramientas digitales que están
+          transformando nuestro mundo.
+        </p>
+
+        <div class="flex flex-col gap-3">
+          <div class="flex gap-3 items-center">
+            <div
+              class="w-7 h-7 rounded-full bg-zinc-100/20 flex items-center justify-center"
+            >
+              <p class="text-zinc-100">✓</p>
+            </div>
+            <p class="text-zinc-200">Contenido verificado por expertos</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <div
+              class="w-7 h-7 rounded-full bg-zinc-100/20 flex items-center justify-center"
+            >
+              <p class="text-zinc-100">✓</p>
+            </div>
+            <p class="text-zinc-200">Actualizaciones diarias</p>
+          </div>
+          <div class="flex gap-3 items-center">
+            <div
+              class="w-7 h-7 rounded-full bg-zinc-100/20 flex items-center justify-center"
+            >
+              <p class="text-zinc-100">✓</p>
+            </div>
+            <p class="text-zinc-200">Análisis profundos y exlusivos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <h2 class="text-start text-3xl font-bold">Sobre TechBlog</h2>
+        <p class="text-zinc-600 text-start text-lg mt-3">
+          Somos un equipo apasionado de tecnólogos, desarrolladores, analistas y
+          periodistas especializados que se dedican a explorar y compartir las
+          últimas innovaciones del mundo digital. Nuestro objetivo es hacer que
+          la tecnología compleja sea accesible, comprensible y aplicable para
+          todos.
+        </p>
+        <p class="text-zinc-600 text-start text-lg">
+          Desde inteligencia artificial hasta desarrollo web, desde
+          ciberseguridad hasta las últimas tendencias en startups, cubrimos todo
+          lo que necesitas saber para mantenerte al día en el vertiginoso mundo
+          de la tecnología.
+        </p>
+
+        <!-- Contenedor de las estadísticas -->
+        <div class="grid grid-cols-2 gap-8 mt-12">
+          <div class="flex flex-col gap-1 bg-white shadow-xl py-6 rounded-2xl">
+            <p class="text-violet-600 font-bold text-3xl text-center">1M+</p>
+            <p class="text-zinc-600 font-medium text-base text-center">
+              Lectores Mensuales
+            </p>
+          </div>
+          <div class="flex flex-col gap-1 bg-white shadow-xl py-6 rounded-2xl">
+            <p class="text-violet-600 font-bold text-3xl text-center">500+</p>
+            <p class="text-zinc-600 font-medium text-base text-center">
+              Artículos Publicados
+            </p>
+          </div>
+          <div class="flex flex-col gap-1 bg-white shadow-xl py-6 rounded-2xl">
+            <p class="text-violet-600 font-bold text-3xl text-center">50K+</p>
+            <p class="text-zinc-600 font-medium text-base text-center">
+              Suscriptores
+            </p>
+          </div>
+          <div class="flex flex-col gap-1 bg-white shadow-xl py-6 rounded-2xl">
+            <p class="text-violet-600 font-bold text-3xl text-center">4</p>
+            <p class="text-zinc-600 font-medium text-base text-center">
+              Años Online
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-8">
+          <a
+            href=""
+            class="h-14 bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-full flex items-center justify-center text-zinc-100 font-medium text-base w-fit px-8"
+            >Conoce a nuestro equipo</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
