@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="flex items-center justify-between px-4 h-[80px]">
+      <!-- Izquierda -->
+      <div class="flex items-center gap-4">
+        <div
+          class="bg-gradient-to-r from-purple-600 to-pink-600 w-10 h-10 rounded-xl flex items-center justify-center"
+        >
+          <p class="text-zinc-100 font-bold text-lg">M</p>
+        </div>
+        <p
+          class="bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text text-2xl font-bold"
+        >
+          ModaStyle
+        </p>
+      </div>
+
+      <!-- Derecha -->
+      <div class="">
+        <div class="flex items-center gap-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search-icon lucide-search text-zinc-700"
+          >
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="8" />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-heart-icon lucide-heart text-zinc-700"
+          >
+            <path
+              d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section
+      class="bg-gradient-to-br from-purple-900 via-purple-700 to-pink-600 py-10 px-4 flex flex-col gap-4 items-center overflow-x-hidden"
+    >
+      <div
+        class="flex items-center gap-2 w-fit px-4 h-10 border border-zinc-500 rounded-full bg-zinc-100/10"
+      >
+        <div class="w-2 h-2 bg-green-600 animate-pulse rounded-full"></div>
+        <p class="text-zinc-300 font-medium text-sm">
+          Nuevas Ofertas Disponibles
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-6">
+        <h1 class="text-4xl font-bold text-zinc-100 text-center">
+          Descubre la
+          <span
+            class="bg-gradient-to-r from-yellow-300 to-orange-300 text-transparent bg-clip-text"
+            >Moda Perfecta</span
+          >
+          para Ti
+        </h1>
+        <p class="text-lg text-zinc-200 text-center">
+          Explora nuestra exclusiva colección de moda contemporánea. Calidad
+          premium, diseños únicos y precios que te sorprenderán. Tu estilo
+          personal comienza aquí.
+        </p>
+
+        <div class="flex flex-col gap-4">
+          <a
+            href=""
+            class="bg-zinc-100 rounded-xl h-15 flex gap-2 items-center justify-center text-purple-700 font-bold text-lg"
+            >Explorar Colección
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-move-right-icon lucide-move-right"
+            >
+              <path d="M18 8L22 12L18 16" />
+              <path d="M2 12H22" />
+            </svg>
+          </a>
+          <a
+            href=""
+            class="rounded-xl h-15 flex gap-2 items-center justify-center text-zinc-100 font-bold text-lg border-2 border-zinc-200"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-hand-coins-icon lucide-hand-coins"
+            >
+              <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+              <path
+                d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"
+              />
+              <path d="m2 16 6 6" />
+              <circle cx="16" cy="9" r="2.9" />
+              <circle cx="6" cy="5" r="3" />
+            </svg>
+            Ver Ofertas</a
+          >
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-3 justify-items-center mt-8">
+        <div>
+          <p class="text-3xl font-bold text-zinc-100 text-center">50k+</p>
+          <p class="text-sm text-zinc-200 text-center">Clientes Felices</p>
+        </div>
+        <div>
+          <p class="text-3xl font-bold text-zinc-100 text-center">1000+</p>
+          <p class="text-sm text-zinc-200 text-center">Productos</p>
+        </div>
+        <div>
+          <p class="text-3xl font-bold text-zinc-100 text-center">4.9★</p>
+          <p class="text-sm text-zinc-200 text-center">Calificación</p>
+        </div>
+      </div>
+
+      <div class="relative mt-18">
+        <div
+          class="bg-zinc-100 rounded-xl px-4 py-4 flex items-center gap-3 w-fit absolute -top-6 -left-8 animate-bounce"
+        >
+          <div
+            class="bg-gradient-to-r from-green-500 to-blue-600 rounded-2xl w-12 h-12 flex items-center justify-center"
+          >
+            <!-- Icono de check -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-check-icon lucide-check text-zinc-100"
+            >
+              <path d="M20 6 9 17l-5-5" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-lg font-bold">Envío Gratis</p>
+            <p class="text-sm text-zinc-600">En compras +100$</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-2xl w-fit absolute -bottom-7 -right-5 px-4 py-6 animate-pulse"
+        >
+          <div>
+            <p class="text-3xl text-center font-bold text-zinc-100">70%</p>
+            <p class="uppercase text-center text-zinc-100 font-medium text-sm">
+              Descuento
+            </p>
+          </div>
+        </div>
+
+        <img
+          class="rounded-2xl"
+          src="./assets/tienda.webp"
+          alt="Imagen de la tienda"
+        />
+      </div>
+    </section>
+
+    <!-- Sección Características de envío -->
+    <section class="py-10 px-4 flex flex-col gap-10">
+      <!-- Característica 01 -->
+      <div class="flex flex-col items-center">
+        <div
+          class="bg-gradient-to-r from-purple-500 to-purple-600 w-14 h-14 rounded-xl flex items-center justify-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-box-icon lucide-box text-zinc-100"
+          >
+            <path
+              d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"
+            />
+            <path d="m3.3 7 8.7 5 8.7-5" />
+            <path d="M12 22V12" />
+          </svg>
+        </div>
+        <div class="mt-3 flex flex-col gap-1">
+          <p class="text-xl font-bold text-center">Envío Express</p>
+          <p class="text-zinc-600 text-center">
+            Entrega en 24-48 horas en toda la ciudad
+          </p>
+        </div>
+      </div>
+
+      <!-- Característica 02 -->
+      <div class="flex flex-col items-center">
+        <div
+          class="bg-gradient-to-r from-green-500 to-green-600 w-14 h-14 rounded-xl flex items-center justify-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-check-icon lucide-circle-check text-zinc-100"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
+        <div class="mt-3 flex flex-col gap-1">
+          <p class="text-xl font-bold text-center">Garantía Total</p>
+          <p class="text-zinc-600 text-center">
+            30 días para cambios y devoluciones
+          </p>
+        </div>
+      </div>
+
+      <!-- Característica 03 -->
+      <div class="flex flex-col items-center">
+        <div
+          class="bg-gradient-to-r from-blue-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-box-icon lucide-box text-zinc-100"
+          >
+            <path
+              d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"
+            />
+            <path d="m3.3 7 8.7 5 8.7-5" />
+            <path d="M12 22V12" />
+          </svg>
+        </div>
+        <div class="mt-3 flex flex-col gap-1">
+          <p class="text-xl font-bold text-center">Soporte 24/7</p>
+          <p class="text-zinc-600 text-center">
+            Atención personalizada siempre disponible
+          </p>
+        </div>
+      </div>
+
+      <!-- Característica 04 -->
+      <div class="flex flex-col items-center">
+        <div
+          class="bg-gradient-to-r from-yellow-500 to-orange-500 w-14 h-14 rounded-xl flex items-center justify-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-lock-keyhole-icon lucide-lock-keyhole text-zinc-100"
+          >
+            <circle cx="12" cy="16" r="1" />
+            <rect x="3" y="10" width="18" height="12" rx="2" />
+            <path d="M7 10V7a5 5 0 0 1 10 0v3" />
+          </svg>
+        </div>
+        <div class="mt-3 flex flex-col gap-1">
+          <p class="text-xl font-bold text-center">Pago Seguro</p>
+          <p class="text-zinc-600 text-center">Transacciones 100% protegidas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de productos -->
+    <section class="py-10 px-4">
+      <div class="flex flex-col gap-5">
+        <div class="text-purple-700 font-medium text-sm text-center">
+          <p>✨ Productos Destacados</p>
+        </div>
+
+        <h2 class="text-4xl font-bold text-center">
+          Nuestra Selección
+          <span
+            class="bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text"
+            >Premium</span
+          >
+        </h2>
+
+        <p class="text-lg text-zinc-600 text-center">
+          Descubre los productos más populares y las últimas tendencias
+          seleccionadas especialmente para ti
+        </p>
+      </div>
+
+      <!-- Contenedor de los productos -->
+      <div>
+        <!-- Producto 01 -->
+        <div class="rounded-2xl shadow-xl pb-5">
+          <div
+            class="relative bg-[url('./assets/vestido-rosa.webp')] min-h-[280px] bg-cover bg-no-repeat bg-center rounded-t-[inherit]"
+          >
+            <div
+              class="bg-gradient-to-r from-red-500 to-pink-500 w-fit px-2 py-.5 rounded-full absolute top-4 left-4"
+            >
+              <p class="text-zinc-100 font-bold">-35%</p>
+            </div>
+          </div>
+
+          <div class="px-6 py-6 flex flex-col gap-2">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-600">(124)</p>
+            </div>
+
+            <div>
+              <p class="text-lg font-bold">Vestido Elegante Rosa</p>
+              <p class="text-sm text-zinc-600">
+                Perfecto para ocasiones especiales y eventos
+              </p>
+            </div>
+
+            <div class="flex items-center justify-between gap-5">
+              <div class="flex items-center gap-2">
+                <p class="text-2xl font-bold">S/89</p>
+                <p class="text-lg text-zinc-500 line-through">S/137</p>
+              </div>
+
+              <button
+                class="bg-gradient-to-r from-purple-600 to-pink-600 h-10 px-4 rounded-xl text-zinc-100 font-medium"
+              >
+                Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 02 -->
+        <div class="rounded-2xl shadow-xl pb-5">
+          <div
+            class="relative bg-[url('./assets/chaqueta-azul.webp')] min-h-[280px] bg-cover bg-no-repeat bg-center rounded-t-[inherit]"
+          >
+            <div
+              class="bg-gradient-to-r from-green-500 to-green-600 w-fit px-3 py-1 rounded-full absolute top-4 left-4"
+            >
+              <p class="text-zinc-100 font-bold text-sm">Nuevo</p>
+            </div>
+          </div>
+
+          <div class="px-6 py-6 flex flex-col gap-2">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-600">(89)</p>
+            </div>
+
+            <div>
+              <p class="text-lg font-bold">Chaqueta Moderna Azul</p>
+              <p class="text-sm text-zinc-600">
+                Estilo urbano y comodidad premium
+              </p>
+            </div>
+
+            <div class="flex items-center justify-between gap-5">
+              <div class="flex items-center gap-2">
+                <p class="text-2xl font-bold">S/156</p>
+              </div>
+
+              <button
+                class="bg-gradient-to-r from-purple-600 to-pink-600 h-10 px-4 rounded-xl text-zinc-100 font-medium"
+              >
+                Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 03 -->
+        <div class="rounded-2xl shadow-xl pb-5">
+          <div
+            class="relative bg-[url('./assets/zapatos-blancos.webp')] min-h-[280px] bg-cover bg-no-repeat bg-center rounded-t-[inherit]"
+          >
+            <div
+              class="bg-gradient-to-r from-red-500 to-pink-500 w-fit px-2 py-.5 rounded-full absolute top-4 left-4"
+            >
+              <p class="text-zinc-100 font-bold">-35%</p>
+            </div>
+          </div>
+
+          <div class="px-6 py-6 flex flex-col gap-2">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-600">(156)</p>
+            </div>
+
+            <div>
+              <p class="text-lg font-bold">Zapatos Casuales Blancos</p>
+              <p class="text-sm text-zinc-600">
+                Comodidad suprema para todo el día
+              </p>
+            </div>
+
+            <div class="flex items-center justify-between gap-5">
+              <div class="flex items-center gap-2">
+                <p class="text-2xl font-bold">S/78</p>
+              </div>
+
+              <button
+                class="bg-gradient-to-r from-purple-600 to-pink-600 h-10 px-4 rounded-xl text-zinc-100 font-medium"
+              >
+                Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 04 -->
+        <div class="rounded-2xl shadow-xl pb-5">
+          <div
+            class="relative bg-[url('./assets/bolso-de-mano.webp')] min-h-[280px] bg-cover bg-no-repeat bg-center rounded-t-[inherit]"
+          >
+            <div
+              class="bg-gradient-to-r from-red-500 to-pink-500 w-fit px-2 py-.5 rounded-full absolute top-4 left-4"
+            >
+              <p class="text-zinc-100 font-bold">-35%</p>
+            </div>
+          </div>
+
+          <div class="px-6 py-6 flex flex-col gap-2">
+            <div class="flex items-center gap-3">
+              <p class="text-yellow-500">★★★★★</p>
+              <p class="text-sm text-zinc-600">(156)</p>
+            </div>
+
+            <div>
+              <p class="text-lg font-bold">Bolso de Mano Elegante</p>
+              <p class="text-sm text-zinc-600">
+                Elegancia y funcionalidad en uno
+              </p>
+            </div>
+
+            <div class="flex items-center justify-between gap-5">
+              <div class="flex items-center gap-2">
+                <p class="text-2xl font-bold">S/134</p>
+              </div>
+
+              <button
+                class="bg-gradient-to-r from-purple-600 to-pink-600 h-10 px-4 rounded-xl text-zinc-100 font-medium"
+              >
+                Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="flex items-center gap-2 bg-gradient-to-r from-gray-900 to-gray-800 text-zinc-100 text-lg font-bold h-auto py-3 rounded-xl px-8 mt-12"
+      >
+        Ver todos los productos
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-move-right-icon lucide-move-right"
+        >
+          <path d="M18 8L22 12L18 16" />
+          <path d="M2 12H22" />
+        </svg>
+      </button>
+    </section>
+
+    <!-- Sección de Categorías -->
+    <section class="py-10 px-4">
+      <div class="flex flex-col gap-5">
+        <div class="text-purple-700 font-medium text-sm text-center">
+          <p>🛍️ Explora por Categorías</p>
+        </div>
+
+        <h2 class="text-4xl font-bold text-center">
+          Encuentra Tu
+          <span
+            class="bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text"
+            >Estilo Perfecto</span
+          >
+        </h2>
+
+        <p class="text-lg text-zinc-600 text-center">
+          Explora nuestras categorías cuidadosamente seleccionadas para
+          encontrar exactamente lo que buscas
+        </p>
+      </div>
+
+      <!-- Contenedor de las Categorías -->
+      <div class="flex flex-col gap-12 mt-12">
+        <!-- Categoría 01 -->
+        <div
+          class="relative bg-[url('./assets/moda-mujer.jpg')] min-h-[380px] bg-cover bg-no-repeat bg-center rounded-3xl flex items-end before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-[rgba(0,0,0,0.30)] before:rounded-[inherit]"
+        >
+          <div
+            class="relative z-[1] flex items-center justify-center flex-col px-7 py-8 gap-5"
+          >
+            <div class="flex gap-3 items-center">
+              <div
+                class="bg-gradient-to-r from-pink-500 to-rose-500 w-12 h-12 flex items-center justify-center rounded-2xl"
+              >
+                <!-- Icono -->
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-user-icon lucide-user text-zinc-100"
+                >
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+
+              <div>
+                <p class="text-3xl font-bold text-zinc-100">Mujer</p>
+                <p class="text-zinc-100 text-lg">500+ Productos</p>
+              </div>
+            </div>
+
+            <p class="text-lg text-zinc-100">
+              Elegancia y sofisticación en cada prenda
+            </p>
+
+            <a
+              href=""
+              class="bg-zinc-100 text-zinc-950 font-bold flex items-center justify-center gap-3 h-auto py-2 rounded-xl px-8 text-center"
+              >Explorar Colección
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right-icon lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Categoría 02 -->
+        <div
+          class="relative bg-[url('./assets/moda-hombre.jpg')] min-h-[380px] bg-cover bg-no-repeat bg-center rounded-3xl flex items-end before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-[rgba(0,0,0,0.30)] before:rounded-[inherit]"
+        >
+          <div
+            class="relative z-[1] flex items-center justify-center flex-col px-7 py-8 gap-5"
+          >
+            <div class="flex gap-3 items-center">
+              <div
+                class="bg-gradient-to-r from-blue-500 to-indigo-500 w-12 h-12 flex items-center justify-center rounded-2xl"
+              >
+                <!-- Icono -->
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-user-icon lucide-user text-zinc-100"
+                >
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+
+              <div>
+                <p class="text-3xl font-bold text-zinc-100">Hombre</p>
+                <p class="text-zinc-100 text-lg">350+ Productos</p>
+              </div>
+            </div>
+
+            <p class="text-lg text-zinc-100">
+              Estilo moderno y sofisticación masculina
+            </p>
+
+            <a
+              href=""
+              class="bg-zinc-100 text-zinc-950 font-bold flex items-center justify-center gap-3 h-auto py-2 rounded-xl px-8 text-center"
+              >Explorar Colección
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right-icon lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Categoría 03 -->
+        <div
+          class="relative bg-[url('./assets/accesorios.jpg')] min-h-[380px] bg-cover bg-no-repeat bg-center rounded-3xl flex items-end before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 before:bg-[rgba(0,0,0,0.30)] before:rounded-[inherit]"
+        >
+          <div
+            class="relative z-[1] flex items-center justify-center flex-col px-7 py-8 gap-5"
+          >
+            <div class="flex gap-3 items-center">
+              <div
+                class="bg-gradient-to-r from-yellow-500 to-orange-500 w-12 h-12 flex items-center justify-center rounded-2xl"
+              >
+                <!-- Icono -->
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-user-icon lucide-user text-zinc-100"
+                >
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+
+              <div>
+                <p class="text-3xl font-bold text-zinc-100">Accesorios</p>
+                <p class="text-yellow-200 text-lg">200+ Productos</p>
+              </div>
+            </div>
+
+            <p class="text-lg text-zinc-100">
+              Los detalles que completan tu look perfecto
+            </p>
+
+            <a
+              href=""
+              class="bg-zinc-100 text-zinc-950 font-bold flex items-center justify-center gap-3 h-auto py-2 rounded-xl px-8 text-center"
+              >Explorar Colección
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right-icon lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Call To Action -->
+    <section
+      class="py-10 px-4 bg-gradient-to-br from-purple-900 via-purple-800 to-pink-800 overflow-x-hidden"
+    >
+      <div class="flex flex-col gap-6">
+        <div
+          class="bg-gradient-to-r from-yellow-400 to-orange-400 w-fit text-sm font-bold h-auto py-3 px-4 rounded-full animate-pulse"
+        >
+          <p>🔥 Ofertas por Tiempo Limitado</p>
+        </div>
+
+        <p class="text-4xl text-zinc-100 text-center font-bold">
+          Hasta <br />
+          <span
+            class="text-6xl bg-gradient-to-r from-yellow-300 to-orange-300 text-transparent bg-clip-text"
+            >70% OFF</span
+          >
+        </p>
+
+        <p class="text-lg text-zinc-200 text-center">
+          No te pierdas estas increíbles ofertas en productos seleccionados.
+          ¡Solo por tiempo limitado!
+        </p>
+
+        <div class="flex items-center gap-3">
+          <div
+            class="bg-zinc-100/15 border border-zinc-500 rounded-xl w-fit h-auto py-4 px-3"
+          >
+            <p class="text-3xl font-bold text-zinc-100 text-center">23</p>
+            <p class="text-sm text-zinc-300 text-center">Días</p>
+          </div>
+          <div
+            class="bg-zinc-100/15 border border-zinc-500 rounded-xl w-fit h-auto py-4 px-3"
+          >
+            <p class="text-3xl font-bold text-zinc-100 text-center">14</p>
+            <p class="text-sm text-zinc-300 text-center">Horas</p>
+          </div>
+          <div
+            class="bg-zinc-100/15 border border-zinc-500 rounded-xl w-fit h-auto py-4 px-3"
+          >
+            <p class="text-3xl font-bold text-zinc-100 text-center">35</p>
+            <p class="text-sm text-zinc-300 text-center">Minutos</p>
+          </div>
+          <div
+            class="bg-zinc-100/15 border border-zinc-500 rounded-xl w-fit h-auto py-4 px-3"
+          >
+            <p class="text-3xl font-bold text-zinc-100 text-center">42</p>
+            <p class="text-sm text-zinc-300 text-center">Segundos</p>
+          </div>
+        </div>
+
+        <a
+          href=""
+          class="bg-gradient-to-r from-yellow-400 to-orange-400 w-fit h-auto py-4 px-8 rounded-2xl flex items-center gap-3 text-lg font-bold text-center mt-8"
+          >Ver Todas las Ofertas
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-move-right-icon lucide-move-right"
+          >
+            <path d="M18 8L22 12L18 16" />
+            <path d="M2 12H22" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sección de los testimonios -->
+    <section class="py-10 px-4">
+      <div class="flex flex-col gap-5">
+        <div class="text-purple-700 font-medium text-sm text-center">
+          <p>⭐ Testimonios Reales</p>
+        </div>
+
+        <h2 class="text-4xl font-bold text-center">
+          Lo que dicen
+          <span
+            class="bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text"
+            >Nuestros Clientes</span
+          >
+        </h2>
+
+        <p class="text-lg text-zinc-600 text-center">
+          Miles de clientes satisfechos han transformado su estilo con nosotros
+        </p>
+      </div>
+
+      <!-- Contenedor de los testimonios -->
+      <div class="flex flex-col gap-12 mt-14">
+        <!-- Testimonio 01 -->
+        <div class="flex flex-col gap-6 px-6 py-7 shadow-xl">
+          <div class="flex items-center gap-4">
+            <p class="text-yellow-400 text-xl">★★★★★</p>
+            <p class="text-sm text-zinc-600">Hace 2 días</p>
+          </div>
+
+          <p class="text-zinc-600 text-lg">
+            Increíble calidad y servicio excepcional. Los productos llegaron
+            súper rápido y exactamente como se veían en las fotos. La atención
+            al cliente es de primera clase.
+          </p>
+
+          <div class="flex items-center gap-4">
+            <img
+              src="./assets/mujer.jpg"
+              alt="Imagen de una mujer"
+              class="w-12 h-12 object-cover rounded-xl"
+            />
+
+            <div>
+              <p class="text-lg font-bold">María Gonzales</p>
+              <p class="font-medium text-purple-700">Cliente VIP</p>
+              <p class="text-sm font-medium text-green-600">
+                Compra Verificada
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 02 -->
+        <div class="flex flex-col gap-6 px-6 py-7 shadow-xl">
+          <div class="flex items-center gap-4">
+            <p class="text-yellow-400 text-xl">★★★★★</p>
+            <p class="text-sm text-zinc-600">Hace 1 semana</p>
+          </div>
+
+          <p class="text-zinc-600 text-lg">
+            La mejor tienda online que he encontrado. Precios justos, gran
+            variedad y el proceso de compra es súper fácil. Definitivamente mi
+            tienda favorita.
+          </p>
+
+          <div class="flex items-center gap-4">
+            <img
+              src="./assets/mujer.jpg"
+              alt="Imagen de una mujer"
+              class="w-12 h-12 object-cover rounded-xl"
+            />
+
+            <div>
+              <p class="text-lg font-bold">Carlos Ruiz</p>
+              <p class="font-medium text-purple-700">Cliente Frecuente</p>
+              <p class="text-sm font-medium text-green-600">
+                Compra Verificada
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 03 -->
+        <div class="flex flex-col gap-6 px-6 py-7 shadow-xl">
+          <div class="flex items-center gap-4">
+            <p class="text-yellow-400 text-xl">★★★★★</p>
+            <p class="text-sm text-zinc-600">Hace 3 días</p>
+          </div>
+
+          <p class="text-zinc-600 text-lg">
+            Excelente atención al cliente y productos de calidad premium. Tuve
+            un problema con mi pedido y lo resolvieron inmediatamente. Servicio
+            excepcional.
+          </p>
+
+          <div class="flex items-center gap-4">
+            <img
+              src="./assets/mujer.jpg"
+              alt="Imagen de una mujer"
+              class="w-12 h-12 object-cover rounded-xl"
+            />
+
+            <div>
+              <p class="text-lg font-bold">Ana López</p>
+              <p class="font-medium text-purple-700">Cliente Satisfecha</p>
+              <p class="text-sm font-medium text-green-600">
+                Compra Verificada
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contenedor de Estadísticas -->
+      <div class="grid grid-cols-2 gap-8">
+        <div>
+          <p class="text-4xl font-bold text-purple-700 text-center">50k+</p>
+          <p class="text-base text-zinc-600 font-medium text-center">
+            Clientes Felices
+          </p>
+        </div>
+        <div>
+          <p class="text-4xl font-bold text-green-600 text-center">98%</p>
+          <p class="text-base text-zinc-600 font-medium text-center">
+            Satisfacción
+          </p>
+        </div>
+        <div>
+          <p class="text-4xl font-bold text-blue-700 text-center">4.9★</p>
+          <p class="text-base text-zinc-600 font-medium text-center">
+            Calificación
+          </p>
+        </div>
+        <div>
+          <p class="text-4xl font-bold text-orange-600 text-center">24/7</p>
+          <p class="text-base text-zinc-600 font-medium text-center">Soporte</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
