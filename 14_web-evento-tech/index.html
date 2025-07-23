@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="px-4 h-[80px] flex items-center justify-between gap-6">
+      <!-- Izquierda -->
+      <div class="flex items-center gap-2">
+        <div class="">
+          <div
+            class="w-9 h-9 rounded-2xl bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 flex items-center justify-center text-zinc-100"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-zap-icon lucide-zap"
+            >
+              <path
+                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <p
+          class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-transparent bg-clip-text font-bold text-lg"
+        >
+          TechSummit 2025
+        </p>
+      </div>
+
+      <!-- Derecha -->
+      <div>
+        <button
+          class="bg-gradient-to-r from-indigo-600 to-purple-600 h-10 px-5 rounded-full text-zinc-100 font-bold text-sm"
+        >
+          Tickets
+        </button>
+      </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="py-12 px-4 relative overflow-hidden">
+      <div class="flex flex-col gap-20">
+        <!-- Izquierda -->
+        <div class="flex flex-col gap-4">
+          <div
+            class="h-9 shadow-xl w-fit mx-auto rounded-full px-5 flex items-center justify-center"
+          >
+            <p class="text-indigo-800 font-bold text-sm w-fit mx-auto">
+              22-23 Marzo 2025 • Lima
+            </p>
+          </div>
+
+          <div
+            class="bg-gradient-to-r from-emerald-500 to-teal-500 w-fit flex items-center gap-2 px-3 rounded-full h-8 mx-auto"
+          >
+            <div class="w-2.5 h-2.5 bg-zinc-100 rounded-full"></div>
+            <p class="text-xs uppercase font-bold text-zinc-100">
+              Últimos Lugares
+            </p>
+          </div>
+
+          <h1 class="text-4xl font-bold text-center">
+            El Futuro <br />
+            <span
+              class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
+            >
+              Es Ahora</span
+            >
+          </h1>
+          <div
+            class="w-16 mx-auto h-1 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
+          ></div>
+
+          <p class="text-zinc-600 text-lg text-center">
+            Descubre las tecnologías que están transformando el mundo. Conecta
+            con visionarios y
+            <span class="text-indigo-600 font-medium"
+              >construye el futuro junto a nosotros</span
+            >
+          </p>
+
+          <div class="flex flex-col gap-3 mt-8">
+            <a
+              href=""
+              class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 h-12 rounded-xl flex items-center justify-center gap-2 text-zinc-100 font-bold text-lg"
+              >Asegurar mi Lugar
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-rocket-icon lucide-rocket"
+              >
+                <path
+                  d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"
+                />
+                <path
+                  d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+                />
+                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+              </svg>
+            </a>
+            <a
+              href=""
+              class="h-12 border-2 rounded-xl border-zinc-300 flex items-center justify-center gap-2 text-lg text-zinc-700 font-bold"
+              >Ver Agenda
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-target-icon lucide-target"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="6" />
+                <circle cx="12" cy="12" r="2" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-3 gap-6 mt-8">
+            <div class="w-fit text-center">
+              <p
+                class="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent text-2xl font-bold"
+              >
+                50+
+              </p>
+              <p
+                class="uppercase text-xs font-medium text-zinc-600 text-center"
+              >
+                Speakers Élite
+              </p>
+            </div>
+            <div class="w-fit text-center">
+              <p
+                class="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent text-2xl font-bold"
+              >
+                2k+
+              </p>
+              <p
+                class="uppercase text-xs font-medium text-zinc-600 text-center"
+              >
+                Innovadores
+              </p>
+            </div>
+            <div class="w-fit text-center">
+              <p
+                class="bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent text-2xl font-bold"
+              >
+                48h
+              </p>
+              <p
+                class="uppercase text-xs font-medium text-zinc-600 text-center"
+              >
+                De Inspiración
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Derecha -->
+        <div>
+          <div class="relative group">
+            <!-- Rectángulo -->
+            <div
+              class="w-full absolute h-full group-hover:rotate-[1deg] rotate-[6deg] bg-gradient-to-r from-pink-700 to-orange-600 rounded-2xl transition-all duration-700"
+            ></div>
+            <!-- Rectángulo -->
+            <div
+              class="w-full absolute h-full group-hover:rotate-[-1deg] rotate-[-6deg] bg-gradient-to-r from-pink-700 to-orange-600 rounded-2xl bg-gradient-to-r from-violet-600 to-pink-600 transition-all duration-700"
+            ></div>
+
+            <div
+              class="absolute z-[2] bg-zinc-100 rounded-2xl h-8 px-3 flex items-center justify-center gap-2 -top-2 -right-3"
+            >
+              <div
+                class="w-2 h-2 rounded-full bg-green-600 animate-pulse"
+              ></div>
+              <p class="text-sm font-medium">En Vivo</p>
+            </div>
+            <div
+              class="absolute z-[2] bg-zinc-100 rounded-2xl h-8 px-3 flex items-center justify-center gap-2 -bottom-2 -left-3"
+            >
+              <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
+              <p class="text-sm font-medium">Certificado</p>
+            </div>
+
+            <img
+              src="./assets/hero.webp"
+              alt="Imagen de una conferencia"
+              class="rounded-2xl relative z-[1]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
